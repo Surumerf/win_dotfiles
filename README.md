@@ -21,6 +21,6 @@ Copy-Item .\.vimrc $HOME\.vimrc
 Copy to `$HOME/.gvimrc`;
 
 ```
-Copy-item .\.gvimrc $HOME\.gvimrc
+Copy-Item .\.gvimrc $HOME\.gvimrc
 ```
 
