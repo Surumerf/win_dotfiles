@@ -18,9 +18,6 @@ endif
 syntax on
 colorscheme darkblue
 
-inoremap { {}<LEFT>
-inoremap ( ()<LEFT>
-
 set statusline=%F
 set statusline+=%m
 set statusline+=%r
