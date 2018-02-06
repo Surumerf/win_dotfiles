@@ -22,9 +22,9 @@ function prompt {
 	
 	$gb = git_branch
 	
-	Write-Host $env:USERNAME -NoNewline -ForegroundColor Green
+	Write-Host "Pwsh" -NoNewline -ForegroundColor Green
 	Write-Host ":" -NoNewline -ForegroundColor White
-	Write-Host "$pwd" -NoNewline -ForegroundColor Cyan
+	Write-Host "$pwd" -NoNewline -ForegroundColor Blue
 	Write-Host "$gb"  -ForegroundColor Red
 	Write-Host "$" -NoNewline -ForegroundColor Yellow
 	return " "
